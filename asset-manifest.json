@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Karama-karama/WeReact.git/static/css/main.6d978761.chunk.css",
+    "main.js": "/Karama-karama/WeReact.git/static/js/main.27a617d0.chunk.js",
+    "main.js.map": "/Karama-karama/WeReact.git/static/js/main.27a617d0.chunk.js.map",
+    "runtime-main.js": "/Karama-karama/WeReact.git/static/js/runtime-main.5338aa6c.js",
+    "runtime-main.js.map": "/Karama-karama/WeReact.git/static/js/runtime-main.5338aa6c.js.map",
+    "static/css/2.b61a5292.chunk.css": "/Karama-karama/WeReact.git/static/css/2.b61a5292.chunk.css",
+    "static/js/2.97729e3b.chunk.js": "/Karama-karama/WeReact.git/static/js/2.97729e3b.chunk.js",
+    "static/js/2.97729e3b.chunk.js.map": "/Karama-karama/WeReact.git/static/js/2.97729e3b.chunk.js.map",
+    "index.html": "/Karama-karama/WeReact.git/index.html",
+    "precache-manifest.3da0351e58cdf5df0ce1381920217935.js": "/Karama-karama/WeReact.git/precache-manifest.3da0351e58cdf5df0ce1381920217935.js",
+    "service-worker.js": "/Karama-karama/WeReact.git/service-worker.js",
+    "static/css/2.b61a5292.chunk.css.map": "/Karama-karama/WeReact.git/static/css/2.b61a5292.chunk.css.map",
+    "static/css/main.6d978761.chunk.css.map": "/Karama-karama/WeReact.git/static/css/main.6d978761.chunk.css.map",
+    "static/js/2.97729e3b.chunk.js.LICENSE.txt": "/Karama-karama/WeReact.git/static/js/2.97729e3b.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "/Karama-karama/WeReact.git/static/media/crown.ed28accb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5338aa6c.js",
+    "static/css/2.b61a5292.chunk.css",
+    "static/js/2.97729e3b.chunk.js",
+    "static/css/main.6d978761.chunk.css",
+    "static/js/main.27a617d0.chunk.js"
+  ]
+}
