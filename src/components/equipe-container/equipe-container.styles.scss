@@ -1,0 +1,32 @@
+.equipe-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f0aa;
+    border: 1px solid grey;
+    border-radius: 2pxs;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    margin: 20px;
+    
+    
+  }
+  
+  .equipe-container:hover {
+    transform: scale(1.05);
+  }
+  .corners { 
+    background: #f6f6f6;
+    left : 15%;
+    margin: 50px auto;
+    max-width: 600px;
+    position: relative;
+    width: 80%;
+    box-shadow: 0 1px 7px hsla(0, 0%, 0%, 0.2);
+  }
+  
+  /* Corner Effect */
+  

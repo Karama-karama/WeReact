@@ -1,0 +1,29 @@
+.modal-content {
+  width: 600px; 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-color: lightslategrey;
+  z-index: 1010;
+  text-align: center;
+}
+.equipe-liste {
+    left: 10%;
+}
+    .modal-header {
+        background-color: lightslategrey;
+        .h1 {
+            color: white;
+            }
+        
+    }
+
+   .modal-body{ background-color: white;
+    .p {
+        color: black;
+        
+        
+    }
+    }
