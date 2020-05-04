@@ -1,19 +1,23 @@
 
 .navbar {
-    background-color: #23384b;    padding-left: 20px;
-    color: white;
+    background-color: #23384b;  
+    padding-left: 20px;
+    color: #23384b;
     width: 100px;
     
     left : 0%;
     position: fixed;
     z-index: 200px;
 
-  .nav-link {
-      color: lightyellow;
+  .nav-link{
+      color: #23384b;
   }
   .navbar-brand {
-color: #ffef80;
+color: lightyellow;
 font-style: oblique;
+}
+ul {color: #23384b;
+
 }
 }
 

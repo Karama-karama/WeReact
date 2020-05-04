@@ -1,5 +1,5 @@
 .profile-list {
-  width: 70vw;
+  width: 80vw;
     display: grid;
   margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr;
@@ -15,6 +15,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
  
+  }
+
+  .control-dots {
+    background-color:#e6e6e6 ;
   }
 
     .name {

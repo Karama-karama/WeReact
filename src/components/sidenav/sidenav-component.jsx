@@ -9,7 +9,8 @@ import './sidenav.styles.scss';
       <Navbar.Collapse id="basic-navbar-nav">
       <div className='container'>
        <Nav className="ml-auto" >
-          <Nav.Item><Nav.Link href='/projet'>Projet</Nav.Link></Nav.Item> 
+          <Nav.Item><Nav.Link href='/projet'>
+          <ul className="nav navbar-nav navbar-right">Projet</ul></Nav.Link></Nav.Item> 
           <Nav.Item><Nav.Link href='/equipe'>Equipe</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href='/calendrier'>Calendrier</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href='/document'>Document</Nav.Link></Nav.Item>

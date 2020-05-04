@@ -30,7 +30,7 @@ class AjoutMembre extends React.Component {
       return (
         
         <div className="modal-container"  role="dialog">
-             <Button onClick={this.open} variant="outline-primary"> {' '}
+             <Button onClick={this.open} variant="outline-secondary"> {' '}
                 Ajouter un membre
               </Button>
           
@@ -76,17 +76,17 @@ class AjoutMembre extends React.Component {
                />
 
 
-              <Dropdown
+              <Dropdown  
                   title="Selectionner une équipe"
                   list={this.state.equipes}
-                  toggleItem={this.toggleSelected}
+                  toggleItem={this.toggleSelected} 
                   />
 
             
                </Modal.Body>
 
             <Modal.Footer>
-              <Button onClick={this.close} appearance="primary">
+              <Button onClick={this.close} appearance="secondary">
                 Ajouter
               </Button>
             </Modal.Footer>

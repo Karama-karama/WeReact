@@ -45,7 +45,7 @@ class DropDown extends React.Component {
 
     toggleSelected(id, key){
         let temp = this.state[key]
-        temp[id].selected = !temp[id].selected
+        temp[id].selected = !temp[id].selected  //Cannot read property '#<Class>' of undefined
         this.setState({
           [key]: temp
         })
@@ -60,7 +60,7 @@ class DropDown extends React.Component {
              <div className="dd-header-title" onClick={this.toggleList}>
               {headerTitle}
               </div>
-                {listOpen }
+                {listOpen  }
              </div>
              {listOpen && <ul className="dd-list">
             { this.state.equipes.map(equipe => 

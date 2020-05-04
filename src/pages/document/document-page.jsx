@@ -1,8 +1,10 @@
 import React from 'react';
+import FileUpload from '../../components/file-upload/file-upload-component'; 
 
 const DocumentPage = () =>  (
-    <div className = 'equipe'> 
-     <p>La page des documents</p>
+    <div className = 'document'> 
+     <p>La page des documents </p>
+     <FileUpload/>
    
     </div>
 ); 

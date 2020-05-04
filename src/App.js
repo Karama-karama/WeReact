@@ -9,7 +9,7 @@ import EquipePage from './pages/equipe/equipe-page';
 import CalendrierPage from './pages/calendrier/clanedrier-page';
 import DocumentPage from './pages/document/document-page';
 import NavigationBar from './components/sidenav/sidenav-component';
- 
+// pour page pojet => la carte des projets
 const items =[ 
   { name: 'home', label: 'Home', },
         {
@@ -54,9 +54,11 @@ class App extends Component {
  
 render () {
   const { equipes, searchField } = this.state;
-    const filteredEquipes = equipes.filter(equipe =>
-      equipe.name.toLowerCase().includes(searchField.toLocaleLowerCase())
-    );
+     // ***Searchbox function
+    //const filteredEquipes = equipes.filter(equipe =>
+     // equipe.name.toLowerCase().includes(searchField.toLocaleLowerCase()));
+
+
   return (
     <div className = "App">
       <Header handleChange = {this.handleChange}/> 

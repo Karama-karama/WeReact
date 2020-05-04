@@ -36,7 +36,7 @@ class Demo extends React.Component {
       return (
         
         <div className="modal-container"  role="dialog">
-             <Button onClick={this.open} variant="outline-primary"> {' '}
+             <Button onClick={this.open} variant="outline-secondary"> {' '}
                 liste membre
               </Button>
           
@@ -51,7 +51,7 @@ class Demo extends React.Component {
             <p key ={ membre.id}> { membre.name} </p>) }
              </Modal.Body>
             <Modal.Footer>
-              <Button onClick={this.close} appearance="primary">
+              <Button onClick={this.close} appearance="secondary">
                 Ok
               </Button>
               <Button onClick={this.close} appearance="subtle">
