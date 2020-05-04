@@ -1,11 +1,11 @@
 {
-  "homepage": "https://Karama-karama.github.io/WeReact",
+  "homepage": "git@github.com:Karama-karama/WeReact.git",
   "name": "wereact",
   "version": "0.1.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://Karama-karama.github.io/WeReact/"
+    "url": "git@github.com:Karama-karama/WeReact.git"
   },
   "dependencies": {
     "@material-ui/core": "^4.9.5",
