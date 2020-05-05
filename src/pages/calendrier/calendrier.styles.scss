@@ -9,6 +9,24 @@
       .react-calendar {
         margin-left: 125px;
         width: 1000px;
+        border-radius: 10px;
+        .react-calendar__tile--now {
+          background: #cbe6ef;
+      }
+         .react-calendar__navigation__label {
+           font-family: oblique;
+           font-size: 1.25rem;
+           line-height: inherit;
+         }
+
+         .aria-label {
+          font-family: oblique;
+          font-size: 1.25rem;
+          line-height: inherit;
+         }
+
+
+
     }
 }
 

@@ -1,8 +1,6 @@
 import React from 'react'; 
 import './drop-down-btn.styles.scss';
 
-
-
 class DropDown extends React.Component {
  constructor(props){
      super(props)
@@ -11,20 +9,20 @@ class DropDown extends React.Component {
       headerTitle: this.props.title , 
     
      equipes : [
-     { " id": "001",
+     { "id": "001",
         "title": "Front",
         "selected": "false",
         "key": "team"
      },
-    { " id": "002",
+    { "id": "002",
         "title": "Back",
         "selected": "false",
         "key": "team"
     },
-    { " id": "003",
+    { "id": "003",
         "title": "Design",
         "selected": "false",
-       " key": "team"
+       "key": "team"
     },
     
 
@@ -43,12 +41,13 @@ class DropDown extends React.Component {
       ({ listOpen: !prevState.listOpen})
     };
 
-    toggleSelected(id, key){
+    toggleSelected(id, key){ // Item isn't selected
         let temp = this.state[key]
-        temp[id].selected = !temp[id].selected  //Cannot read property '#<Class>' of undefined
+        temp[id].selected = !temp[id].selected 
         this.setState({
           [key]: temp
         })
+        console.log("item selected", temp[id])
       }
 
   render(){
@@ -64,9 +63,9 @@ class DropDown extends React.Component {
              </div>
              {listOpen && <ul className="dd-list">
             { this.state.equipes.map(equipe => 
-            <p className="dd-list-item" key ={equipe.id} onClick ={ this.toggleSelected}> 
+            <li className="dd-list-item" onClick ={this.toggleSelected} key ={equipe.id} > 
             {equipe.title} 
-            </p>) }
+            </li>) }
         </ul>}
       </div>
       

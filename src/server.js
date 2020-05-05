@@ -1,6 +1,13 @@
+// This file is not communicating with the app
+// Uploader component isn't functional
+
+// Static server solution for App using node :
+// npm install -g serve
+// serve -s build   => will serve the site on port 5000
+// 
+
 const express = require ('express'); 
 const fileUpload = require ('express-fileupload');
-//const http = require ('http');
 
 const Server = express();
 Server.use(fileUpload() ); 

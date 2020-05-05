@@ -78,7 +78,7 @@ class AjoutMembre extends React.Component {
 
               <Dropdown  
                   title="Selectionner une équipe"
-                  list={this.state.equipes}
+                  list={this.state.team}
                   toggleItem={this.toggleSelected} 
                   />
 
