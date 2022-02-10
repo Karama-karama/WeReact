@@ -24,7 +24,7 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.1.7-alpha.3",
     "mdbreact": "^4.25.6",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.0",
     "react-big-scheduler": "^0.2.7",
     "react-bootstrap": "^1.0.0-beta.17",
